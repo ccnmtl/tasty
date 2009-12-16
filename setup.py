@@ -5,7 +5,7 @@ import os
 execfile(os.path.join("tasty", "release.py"))
 
 setup(
-    name="Tasty",
+    name="tasty",
     version=version,
     
     # uncomment the following lines if you fill them out in release.py
