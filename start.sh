@@ -1,5 +1,5 @@
 #!/bin/bash
+export PYTHON_EGG_CACHE=/var/www/tasty/.python-eggs
 cd $1
 source working-env/bin/activate
-exec python start-tasty.py $2
-
+exec python2.5 tasty_start.py $2
